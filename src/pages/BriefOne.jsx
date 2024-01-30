@@ -1,0 +1,65 @@
+import Markdown from 'react-markdown'
+import remarkGfm from 'remark-gfm'
+import { Link } from 'react-router-dom'
+
+
+function BriefOne() {
+  const markdown = `
+  # Motion Design Brief: Obstetric Fistula Campaign
+  ## Project Overview:
+  The motion design campaign aims to raise awareness about obstetric fistula, a debilitating childbirth injury affecting women in low-resource settings. Through engaging animations, the campaign seeks to educate and sensitize viewers about the causes, consequences, and prevention of obstetric fistula. The project is contracted by an NGO dedicated to maternal healthcare and women's rights.
+  
+  ## Campaign Objectives:
+  1. Raise awareness about obstetric fistula and its impact on women's health and dignity.
+  2. Dispel myths and misconceptions surrounding obstetric fistula.
+  3. Encourage early detection, treatment, and support for women affected by obstetric fistula.
+  4. Mobilize support for initiatives aimed at preventing obstetric fistula and improving maternal healthcare.
+  
+  ## Target Audience:
+  - General public, including men and women of all ages.
+  - Healthcare professionals, community workers, and policymakers.
+  - Donors, partners, and stakeholders in the field of maternal health and women's rights.
+
+  ## Creative Approach:
+  1. Empathetic Storytelling: Use compelling narratives and personal stories to evoke empathy and understanding.
+  2. Informative Visuals: Utilize clear and concise animations to explain the causes, symptoms, and consequences of obstetric fistula.
+  3. Inspirational Messaging: Incorporate messages of hope, resilience, and empowerment to motivate action and support.
+  4. Cultural Sensitivity: Tailor the campaign content to resonate with diverse cultural and socio-economic backgrounds.
+  5. Call to Action: Include clear calls to action prompting viewers to seek information, support, or take concrete steps to address obstetric fistula.
+
+  ## Deliverables:
+  1. Animated video highlighting key messages and stories related to obstetric fistula (duration: 3-5 minutes).
+  2. Social media assets (short clips, infographics) for online promotion and engagement.
+  3. Educational materials (brochures, posters) for distribution in healthcare facilities and community settings.
+  4. Website landing page with resources, FAQs, and links to support services.
+
+  ## Timeline:
+  - Pre-production: Research, concept development, and scriptwriting (2 weeks)
+  - Production: Animation, voiceover recording, and graphic design (4 weeks)
+  - Post-production: Editing, sound design, and finalization (2 weeks)
+
+  ## Budget:
+  The project budget will cover creative development, production expenses, talent fees, and distribution costs. Detailed budget breakdown and cost estimates will be provided upon request.
+
+  ## Measurement and Evaluation:
+  - Reach and Engagement: Monitor views, likes, shares, and comments across digital platforms.
+  - Audience Feedback: Collect feedback and testimonials from viewers to gauge campaign impact and effectiveness.
+  - Partnerships and Collaborations: Evaluate partnerships with healthcare organizations, media outlets, and influencers to amplify campaign reach and engagement.
+
+  ## Conclusion:
+  The motion design campaign for obstetric fistula aims to leverage the power of animation and storytelling to ignite conversation, drive awareness, and inspire action towards ending this preventable maternal health crisis. Through collaborative efforts and strategic communication, the campaign endeavors to make a meaningful difference in the lives of women and girls affected by obstetric fistula.
+
+  `
+  return (
+    <div className="flex justify-center w-auto py-20 bg-gray-100">
+      <div>
+        <Link to="/" className='mr-10 italic underline'>[back]</Link>
+      </div>
+      <article className="prose sm:prose-md">
+        <Markdown remarkPlugins={remarkGfm}>{markdown}</Markdown>
+      </article>
+    </div>
+  )
+}
+
+export default BriefOne
