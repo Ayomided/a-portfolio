@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # David Adediji - Motion Designer Portfolio
 
 Welcome to my motion designer portfolio! This repository contains a showcase of my work, including animations, logo designs, and video editing projects.
@@ -43,4 +42,3 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
->>>>>>> refs/remotes/origin/main
