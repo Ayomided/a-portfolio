@@ -4,49 +4,38 @@ import { Link } from 'react-router-dom'
 
 function BriefThree() {
   const markdown = `
-  # Motion Design Brief: Ennoble Logo Animation
+  # Motion Design Brief: Visa Global Pay Animation
 
 ## Project Overview:
-The logo animation project aims to visually represent the identity and values of Ennoble, a parent company for brands like Buy Flower. Through dynamic motion graphics, the animation will convey the essence of Ennoble's brand, including its commitment to innovation, quality, and growth.
+Visa Global Pay seeks to enhance its digital payment platform with animated elements to improve user engagement and brand recognition. The animation project aims to create dynamic visuals that align with Visa's global brand identity and highlight the convenience and security of Visa Global Pay.
 
-## Campaign Objectives:
-1. **Brand Recognition**: Create a memorable and recognizable logo animation that reflects the Ennoble brand identity.
-2. **Engagement**: Capture audience attention and evoke positive emotions through captivating visuals and animation effects.
-3. **Storytelling**: Communicate Ennoble's core values and mission through motion graphics, reinforcing its position as a trusted and forward-thinking company.
-4. **Differentiation**: Stand out in the market by showcasing Ennoble's unique personality and distinct brand attributes.
+## Objectives:
+1. **Enhanced User Experience**: Integrate animated elements to make the Visa Global Pay platform more interactive and visually appealing for users.
+2. **Brand Consistency**: Ensure that the animation design reflects Visa's established brand guidelines and visual identity.
+3. **Educational Content**: Utilize animation to educate users about the features, benefits, and security measures of Visa Global Pay in a clear and engaging manner.
+4. **Promotional Impact**: Leverage animated elements to promote key messages and special offers related to Visa Global Pay services.
 
 ## Target Audience:
-- **Existing and Potential Customers**: Individuals interested in Ennoble's products and services, including Buy Flower customers.
-- **Stakeholders and Partners**: Investors, business associates, and industry collaborators.
-- **General Public**: Anyone interested in learning about Ennoble's brand story and values.
+- **Consumers**: Individuals seeking convenient and secure digital payment solutions for their everyday transactions.
+- **Merchants**: Businesses interested in accepting Visa payments and leveraging Visa Global Pay to enhance customer experience.
+- **Financial Institutions**: Banks and financial service providers looking to partner with Visa and offer Visa Global Pay to their customers.
 
-## Creative Approach:
-1. **Symbolism**: Incorporate visual elements that symbolize growth, transformation, and innovation, reflecting Ennoble's dynamic nature.
-2. **Fluid Motion**: Utilize smooth and fluid animations to convey a sense of elegance and sophistication, aligning with Ennoble's premium brand positioning.
-3. **Color Palette**: Employ Ennoble's brand colors effectively to enhance brand recognition and create a cohesive visual experience.
-4. **Sound Design**: Integrate subtle sound effects or music that complement the animation and enhance viewer engagement.
-5. **Narrative Arc**: Develop a brief narrative arc within the animation to capture attention and communicate key brand messages effectively.
-
-## Deliverables:
-1. **Logo Animation**: A visually stunning and professionally crafted logo animation showcasing Ennoble's brand identity.
-2. **Variations**: Provide different versions of the logo animation tailored for various platforms and use cases, including social media, websites, and presentations.
-3. **Documentation**: Comprehensive documentation outlining the animation concept, design decisions, and technical specifications for future reference.
+## Implementation:
+1. **Animated Tutorials**: Develop animated tutorials or explainer videos to guide users through the Visa Global Pay platform's features, registration process, and security measures.
+2. **Interactive Elements**: Incorporate animated buttons, icons, and visual cues to make navigation intuitive and engaging for users.
+3. **Brand Storytelling**: Create animated sequences that showcase real-life scenarios where Visa Global Pay provides convenient and secure payment solutions for users worldwide.
+4. **Promotional Animations**: Design animated banners, pop-ups, or promotional videos to highlight special offers, discounts, or incentives for using Visa Global Pay.
 
 ## Timeline:
-- **Pre-production**: Concept development, storyboard creation, and client approval (2 weeks).
-- **Production**: Animation design, asset creation, and sound integration (4 weeks).
+- **Pre-production**: Concept development, storyboard creation, and approval (2 weeks).
+- **Production**: Animation design, asset creation, and integration (4 weeks).
 - **Post-production**: Editing, refinement, and finalization (1 week).
 
 ## Budget:
-The project budget will cover creative development, animation production, sound design, and project management fees. Detailed budget estimates and cost breakdowns are available upon request.
-
-## Measurement and Evaluation:
-- **Audience Feedback**: Gather feedback from stakeholders and target audience members to assess the effectiveness of the animation in conveying Ennoble's brand message.
-- **Performance Metrics**: Monitor engagement metrics, such as views, likes, shares, and comments on digital platforms where the animation is published.
-- **Brand Impact**: Evaluate the animation's impact on brand awareness, perception, and audience sentiment through surveys and analytics tools.
+The project budget will cover animation production, creative development, and project management fees. Detailed budget estimates and cost breakdowns are available upon request.
 
 ## Conclusion:
-The Ennoble logo animation project aims to elevate the brand's visual identity and storytelling capabilities through compelling motion graphics. By leveraging innovative design techniques and strategic storytelling, the animation will reinforce Ennoble's position as a trusted and aspirational brand in the marketplace.
+The Visa Global Pay animation project aims to elevate the platform's user experience and promotional efforts through strategically implemented animated elements. By leveraging animation to communicate key messages and enhance user engagement, Visa Global Pay can strengthen its position as a leading digital payment solution provider in the global market.
 
   `
   return (
